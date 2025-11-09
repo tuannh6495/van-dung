@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Văn Dũng - Nguyễn Linh</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Lễ cưới Văn Dũng - Nguyễn Linh" />
+		<meta name="keywords"
+			content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+		<meta name="author" content="Huy Tuấn" />
+
+		<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+		<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content />
+		<meta property="og:image" content />
+		<meta property="og:url" content />
+		<meta property="og:site_name" content />
+		<meta property="og:description" content />
+		<meta name="twitter:title" content />
+		<meta name="twitter:image" content />
+		<meta name="twitter:url" content />
+		<meta name="twitter:card" content />
+
+		<link
+			href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700'
+			rel='stylesheet'
+			type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Sacramento"
+			rel="stylesheet">
+
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Icomoon Icon Fonts-->
+		<link rel="stylesheet" href="css/icomoon.css">
+		<!-- Bootstrap  -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+
+		<!-- Magnific Popup -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+
+		<!-- Owl Carousel  -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+		<!-- Theme style  -->
+		<link rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Dancing Script'
+			rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Pacifico'
+			rel='stylesheet'>
+
+		<!-- Modernizr JS -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+		<style>
+		body div {
+			overflow: hidden;
+		}
+
+		@media (min-width: 768px) {
+			#fh5co-header {
+				height: 100vmax;
+				display: flex;
+				align-items: center;
+				text-align: center;
+			}
+
+			#fh5co-header .overlay {
+				position: absolute;
+				text-align: center;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.5);
+			}
+		}
+
+		#result-box {
+			text-align: center;
+			padding: 40px 0;
+			background: #00000066;
+			top: 0;
+        	left: 0;
+			width: 100%;
+        	height: 100%;
+			position: fixed;
+			display: none;
+			z-index: 9999;
+      	}
+
+        #result-box #success-box h1 {
+			color: #F14E95;
+			font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+			font-weight: 900;
+			font-size: 40px;
+			margin-bottom: 10px;
+        }
+
+        #result-box #success-box p {
+			color: #404F5E;
+			font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+			font-size:20px;
+			margin: 0;
+        }
+
+		#result-box #success-box i {
+			color: #F14E95;
+			font-size: 100px;
+			line-height: 200px;
+			margin-left:-15px;
+      	}
+
+      	#success-box {
+			background: white;
+			padding: 60px;
+			border-radius: 4px;
+			box-shadow: 0 2px 3px #c3dcf5;
+			display: inline-block;
+			margin: 0 auto;
+      	}
+	</style>
+
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			rel="stylesheet">
+		<style>
+	</style>
+	</head>
+
+	<body>
+
+		<audio id="my-audio" loop>
+			<source src="https://files.catbox.moe/2kyrms.mp3" type="audio/mpeg">
+		</audio>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+			$(function() {
+				const audio = $('#my-audio')[0];
+				let playing = false;
+			
+				// Phát nhạc tự động khi load trang (nếu không bị chặn)
+				audio.play().then(() => {
+					playing = true;
+				}).catch(function(error) {
+					console.log('Trình duyệt chặn tự động phát: ' + error);
+				});
+			
+				// Phát nhạc khi người dùng chạm hoặc vuốt bất kỳ đâu trên màn hình
+				$(document).on('touchstart touchmove', function() {
+					if (!playing) {
+						audio.play().then(() => {
+							$('#music-toggle').removeClass('fa-music').addClass('fa-pause');
+							playing = true;
+						}).catch(function(error) {
+							console.log('Không thể phát nhạc khi chạm: ' + error);
+						});
+					}
+				});
+			});
+			</script>
+
+		<div class="fh5co-loader"></div>
+
+		<div id="page">
+			<nav class="fh5co-nav" role="navigation">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-9 col-sm-3">
+							<div id="fh5co-logo">
+								<a href="index.html">Wedding<strong>.</strong></a>
+							</div>
+						</div>
+						<div class="col-xs-3 col-sm-9 text-right menu-1">
+							<ul>
+								<li class="active">
+									<a href="index.html" class="hover-overlay">Home</a>
+								</li>
+								<li class="active">
+									<a href="#" onclick="scrollToTarget('fh5co-couple')"
+										class="hover-overlay">Giới thiệu</a>
+								</li>
+								<li class="active">
+									<a href="#" onclick="scrollToTarget('fh5co-event')"
+										class="hover-overlay">Thời gian &
+										địa điểm</a>
+								</li>
+								<li class="active">
+									<a href="#" onclick="scrollToTarget('fh5co-gallery')"
+										class="hover-overlay">Ảnh</a>
+								</li>
+								<li class="active">
+									<a href="#" onclick="goToSubmit()" class="hover-overlay">Tham dự</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<header id="fh5co-header" class="fh5co-cover" role="banner"
+				style="background-image: url(https://i.postimg.cc/MpxT69fQ/banner.jpg); background-size: cover; background-position: center;"
+				data-stellar-background-ratio="1">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<div class="display-t">
+								<div class="display-tc animate-box" data-animate-effect="fadeIn">
+									<h1 style="font-family: 'Dancing Script'">Văn Dũng &amp; Nguyễn Linh</h1>
+									<h2>We Are Getting Married</h2>
+									<div class="simply-countdown simply-countdown-one"
+										style="z-index: 0; padding-top: 5px;"></div>
+									<p>
+										<a onclick="goToSubmit()" class="btn btn-default btn-sm">Save the
+											date</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+
+			<!-- Wedding Events and Location -->
+			<div id="fh5co-event" class="fh5co-bg"
+				style="background-image:url(images/img_bg_3.jpg);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div
+							class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<span>Our Special Events</span>
+							<h2>Wedding Events</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="col-md-12 col-sm-12 text-center"
+										style="margin-bottom: 1rem;">
+										<div class="event-wrap animate-box">
+											<h3>Thời gian</h3>
+											<div class="event-col">
+												<i class="icon-clock"></i>
+												<span>16:30 AM</span>
+												<span>19:30 AM</span>
+											</div>
+											<div class="event-col">
+												<i class="icon-calendar"></i>
+												<span>Thứ 7 15</span>
+												<span>Tháng 11, 2025</span>
+											</div>
+											<h3>Địa điểm</h3>
+											<div>
+												<i class="icon-map"></i>
+												<span>Nhà trai</span>
+												<a href="https://maps.app.goo.gl/S3urm7MxM18NUvqJ9" 
+													target="_blank" 
+													rel="noopener noreferrer">
+													<span>Bái Uyên, Tiên Du, Bắc Ninh</span>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-12 col-sm-12 text-center">
+											<div class="event-wrap animate-box">
+												<h3>Mừng cưới nhà trai</h3>
+												<img src="https://i.postimg.cc/vTqyLvH9/qr-code-dung.jpg"
+													class="img-responsive">
+													<i class="bi bi-pin-map"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end -->
+
+				<!-- Gallery -->
+				<div id="fh5co-gallery">
+					<div class="container">
+						<div class="row">
+							<div
+								class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+								<span>Our Memories</span>
+								<h2>Wedding Gallery</h2>
+								<!-- <p>Ảnh cưới của hai đứa đây nhé</p> -->
+							</div>
+						</div>
+						<div class="row row-bottom-padded-md">
+							<div class="col-md-12">
+								<ul id="fh5co-gallery-list">
+
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/nrB7XTKC/NKN-0831-TO.jpg); ">
+										<a href="#">
+											<div class="case-studies-summary">
+												<!-- <span>14 Photos</span> -->
+												<h2>Some people are worth melting for</h2>
+											</div>
+										</a>
+									</li>
+									<!-- <li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-2.jpg); ">
+								<a href="#" class="color-2">
+									<div class="case-studies-summary">
+										<h2>You will never age for me, nor fade, nor die</h2>
+									</div>
+								</a>
+							</li> -->
+
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/2S66J2qV/NKN-0929.jpg); ">
+										<a href="#" class="color-3">
+											<div class="case-studies-summary">
+												<!-- <span>90 Photos</span> -->
+												<h2>Love means never having to say you're sorry</h2>
+											</div>
+										</a>
+									</li>
+
+									<!-- <li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-4.jpg); ">
+								<a href="#" class="color-4">
+									<div class="case-studies-summary">
+										<h2>Surely it was a good way to die, in the place of someone else, someone I
+											loved</h2>
+									</div>
+								</a>
+							</li> -->
+
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/Nj5sbFV2/NKN-0961.jpg); ">
+										<a href="#" class="color-3">
+											<div class="case-studies-summary">
+												<!-- <span>50 Photos</span> -->
+												<h2>I love you every universe</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/Y0d7zBzd/NKN-0984.jpg); ">
+										<a href="#" class="color-4">
+											<div class="case-studies-summary">
+												<!-- <span>45 Photos</span> -->
+												<h2>I love you 3000</h2>
+											</div>
+										</a>
+									</li>
+
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/VvVTNfR8/NKN-1114-TO.jpg); ">
+										<a href="#" class="color-4">
+											<div class="case-studies-summary">
+												<!-- <span>35 Photos</span> -->
+												<h2>You’re the reason behind my smile</h2>
+											</div>
+										</a>
+									</li>
+
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/d3k6488n/NKN-1124-BAN.jpg); ">
+										<a href="#" class="color-5">
+											<div class="case-studies-summary">
+												<!-- <span>90 Photos</span> -->
+												<h2>Meeting you is the best thing that ever happened to me.</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/xCHym0Yp/NKN-1240.jpg); ">
+										<a href="#" class="color-6">
+											<div class="case-studies-summary">
+												<!-- <span>56 Photos</span> -->
+												<h2>Ask me why I’m so happy and I’ll give you a mirror</h2>
+											</div>
+										</a>
+									</li>
+
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/52BVszgS/NKN-1268.jpg); ">
+										<a href="#" class="color-7">
+											<div class="case-studies-summary">
+												<!-- <span>56 Photos</span> -->
+												<h2>I’d give up my life if I could command one smile of your eyes,
+													one touch of your hand</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/QCD88qfr/NKN-0974.jpg); ">
+										<a href="#" class="color-6">
+											<div class="case-studies-summary">
+												<!-- <span>56 Photos</span> -->
+												<h2>I looked at your face… my heart jumped all over the place.</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-third animate-box" data-animate-effect="fadeIn"
+										style="background-image: url(https://i.postimg.cc/sD0kKc5h/NKN-1121.jpg); ">
+										<a href="#" class="color-6">
+											<div class="case-studies-summary">
+												<h2>To the world you may be one person, but to one person you may be the world</h2>
+											</div>
+										</a>
+									</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(https://i.postimg.cc/7LTJbmnJ/NKN-1233-BAN.jpg); ">
+								<a href="#" class="color-6">
+									<div class="case-studies-summary">
+										<h2>Believe in the spirit of love… It can heal all things.</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(https://i.postimg.cc/q7ngpgp7/NKN-0853.jpg); ">
+								<a href="#" class="color-6">
+									<div class="case-studies-summary">
+										<h2>Hate has a reason for everything but love is unreasonable</h2>
+									</div>
+								</a>
+							</li>
+								</ul>
+								<style>
+							.modal {
+								display: none;
+								position: fixed;
+								z-index: 1000;
+								left: 0;
+								top: 0;
+								width: 100%;
+								height: 100%;
+								overflow: auto;
+								background-color: rgba(0, 0, 0, 0.9);
+								text-align: center;
+								align-items: center;
+								justify-content: center;
+							}
+
+							.modal-content {
+								max-height: 90vh;
+								/* giảm một chút để tránh tràn màn hình */
+								max-width: 90vw;
+								/* giảm một chút để tránh tràn màn hình */
+							}
+
+							.close {
+								position: absolute;
+								z-index: 2;
+								top: 15px;
+								right: 35px;
+								font-size: 40px;
+								font-weight: bold;
+								color: #fff;
+								cursor: pointer;
+							}
+
+							.close:hover,
+							.close:focus {
+								color: #bbb;
+								text-decoration: none;
+								cursor: pointer;
+							}
+						</style>
+
+								<div id="myModal" class="modal">
+									<span class="close">&times;</span>
+									<img class="modal-content" id="img01">
+								</div>
+								<script>
+							document.addEventListener("DOMContentLoaded", function () {
+								// Lấy modal
+								var modal = document.getElementById("myModal");
+
+								// Lấy ảnh và đặt trong modal
+								var img = document.querySelector("img01");
+								var modalImg = document.getElementById("img01");
+
+								// Lấy thẻ span đóng modal
+								var span = document.getElementsByClassName("close")[0];
+
+								var liElements = document.querySelectorAll("#fh5co-gallery-list li");
+
+								var imageUrls = [];
+								// Lặp qua từng thẻ li để lấy link ảnh
+								liElements.forEach(function (li) {
+									// Lấy ảnh trong style của thẻ li
+									var backgroundImageStyle = li.style.backgroundImage;
+
+									// Sử dụng biểu thức chính quy để lấy URL của ảnh
+									var imageUrl = backgroundImageStyle.match(/url\(['"]?(.*?)['"]?\)/)[1];
+									li.onclick = function () {
+										event.preventDefault();
+										modal.style.display = "flex";
+										modalImg.src = imageUrl;
+									}
+									// Thêm URL của ảnh vào mảng
+									imageUrls.push(imageUrl);
+								});
+								// Xử lý sự kiện khi nút đóng được nhấp
+								span.onclick = function () {
+									modal.style.display = "none";
+								}
+								// Đối tượng phần nền (background) của modal
+								var modalBackground = document.querySelector(".modal");
+
+								modalBackground.addEventListener("click", function (event) {
+									// Kiểm tra nếu người dùng nhấp vào phần nền (background) chứ không phải là bức ảnh
+									if (event.target === modalBackground) {
+										closeModal();
+									}
+								});
+
+								// Sự kiện click cho nút đóng
+								closeBtn.addEventListener("click", closeModal);
+
+								function closeModal() {
+									modal.style.display = "none";
+								}
+
+							});
+
+						</script>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end -->
+				<div id="result-box">
+					<div id="success-box">
+						<div
+							style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+							<i class="checkmark">✓</i>
+						</div>
+						<h1>Thành công</h1>
+						<p id="countdown"></p>
+					</div>
+				</div>
+
+				<div id="fh5co-started" class="fh5co-bg"
+					style="background-image:url(images/img_bg_4.jpg);">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row animate-box">
+							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+								<h2>Are You Attending?</h2>
+								<p>Please Fill-up the form to notify you that you're attending.
+									Thanks.</p>
+							</div>
+						</div>
+						<div class="row animate-box">
+							<div class="col-md-10 col-md-offset-1">
+								<form class="form-inline" method="post"
+									action="https://script.google.com/macros/s/AKfycbwEufbyk4P5rs8o4nVr5N0U0cg0mTm9YEhMYboFGdZ__04XQfHKY9Z1jTby5714_r5U/exec?gid=0"
+									id="attendingForm"
+									onsubmit="event.preventDefault(); submitAttendence();">
+									<div class="col-md-4 col-sm-4">
+										<div class="form-group">
+											<label for="name" class="sr-only">Name</label>
+											<input class="form-control" id="name" placeholder="Name"
+												name="data[name]" required>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4">
+										<div class="form-group">
+											<label for="email" class="sr-only">Email</label>
+											<input type="email" class="form-control" id="email"
+												placeholder="Email"
+												name="data[email]" required>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4">
+										<button class="btn btn-default btn-block" type="submit">I am
+											Attending</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="fh5co-counter" class="fh5co-bg fh5co-counter"
+					style="background-image:url(images/img_bg_5.jpg);">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row">
+							<div class="display-t">
+								<div class="display-tc">
+									<div class="col-md-3 col-sm-6 animate-box">
+										<div class="feature-center">
+											<span class="icon">
+												<i class="icon-users"></i>
+											</span>
+
+											<span class="counter js-counter" data-from="0" data-to="500"
+												data-speed="5000"
+												data-refresh-interval="50">1</span>
+											<span class="counter-label">Estimated Guest</span>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6 animate-box">
+										<div class="feature-center">
+											<span class="icon">
+												<i class="icon-user"></i>
+											</span>
+
+											<span class="counter js-counter" data-from="0" data-to="1000"
+												data-speed="5000"
+												data-refresh-interval="50">1</span>
+											<span class="counter-label">We Catter</span>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6 animate-box">
+										<div class="feature-center">
+											<span class="icon">
+												<i class="icon-calendar"></i>
+											</span>
+											<span class="counter js-counter" data-from="0" data-to="402"
+												data-speed="5000"
+												data-refresh-interval="50">1</span>
+											<span class="counter-label">Events Done</span>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6 animate-box">
+										<div class="feature-center">
+											<span class="icon">
+												<i class="icon-clock"></i>
+											</span>
+
+											<span class="counter js-counter" data-from="0" data-to="2345"
+												data-speed="5000"
+												data-refresh-interval="50">1</span>
+											<span class="counter-label">Hours Spent</span>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div id="fh5co-testimonial">
+				<div class="container">
+					<div class="row">
+						<div class="row animate-box">
+							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+								<span>Best Wishes</span>
+								<h2>Friends Wishes</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 animate-box">
+								<div class="wrap-testimony">
+									<div class="owl-carousel-fullwidth">
+										<div class="item">
+											<div class="testimony-slide active text-center">
+												<figure>
+													<img src="images/couple-1.jpg" alt="user">
+												</figure>
+												<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+												<blockquote>
+													<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
+												</blockquote>
+											</div>
+										</div>
+										<div class="item">
+											<div class="testimony-slide active text-center">
+												<figure>
+													<img src="images/couple-2.jpg" alt="user">
+												</figure>
+												<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+												<blockquote>
+													<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
+												</blockquote>
+											</div>
+										</div>
+										<div class="item">
+											<div class="testimony-slide active text-center">
+												<figure>
+													<img src="images/couple-3.jpg" alt="user">
+												</figure>
+												<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+												<blockquote>
+													<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+												</blockquote>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+				<!-- <div id="fh5co-services" class="fh5co-section-gray">
+				<div class="container">
+
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>We Offer Services</h2>
+							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias
+								accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+								<span class="icon">
+									<i class="icon-calendar"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>We Organized Events</h3>
+									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+										reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+								</div>
+							</div>
+
+							<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+								<span class="icon">
+									<i class="icon-image"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Photoshoot</h3>
+									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+										reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+								</div>
+							</div>
+
+							<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+								<span class="icon">
+									<i class="icon-video"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Video Editing</h3>
+									<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+										reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-md-6 animate-box">
+							<div class="fh5co-video fh5co-bg"
+								style="background-image: url(images/img_bg_3.jpg); ">
+								<a href="https://vimeo.com/channels/staffpicks/93951774"
+									class="popup-vimeo"><i class="icon-video2"></i></a>
+								<div class="overlay"></div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div> -->
+
+				<!-- <div id="fh5co-started" class="fh5co-bg"
+				style="background-image:url(images/img_bg_4.jpg);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>Are You Attending?</h2>
+							<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+						</div>
+					</div>
+					<div class="row animate-box">
+						<div class="col-md-10 col-md-offset-1">
+							<form class="form-inline">
+								<div class="col-md-4 col-sm-4">
+									<div class="form-group">
+										<label for="name" class="sr-only">Name</label>
+										<input type="name" class="form-control" id="name" placeholder="Name">
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="form-group">
+										<label for="email" class="sr-only">Email</label>
+										<input type="email" class="form-control" id="email"
+											placeholder="Email">
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+				<footer id="fh5co-footer" role="contentinfo">
+					<div class="container">
+
+						<div class="row copyright">
+							<div class="col-md-12 text-center">
+								<a>
+									<small class="block">Designed by <a
+											href="https://www.facebook.com/tuan.nguyenhuy.397/"
+											target="_blank">Tuan Nguyen Huy</a></small>
+								</a>
+								<p>
+									<ul class="fh5co-social-icons">
+										<li><a href="https://twitter.com/tuana2k38"><i
+													class="icon-twitter"></i></a></li>
+										<li><a href="https://www.facebook.com/tuan.nguyenhuy.397/"><i
+													class="icon-facebook"></i></a>
+										</li>
+										<li><a href="836959"><i class="icon-linkedin"></i></a></li>
+										<li><a href="#"><i class="icon-dribbble"></i></a></li>
+									</ul>
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</footer>
+
+			</div>
+
+			<div class="gototop js-top">
+				<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+			</div>
+
+			<!-- jQuery -->
+			<script src="js/jquery.min.js"></script>
+			<!-- jQuery Easing -->
+			<script src="js/jquery.easing.1.3.js"></script>
+			<!-- Bootstrap -->
+			<script src="js/bootstrap.min.js"></script>
+			<!-- Waypoints -->
+			<script src="js/jquery.waypoints.min.js"></script>
+			<!-- Carousel -->
+			<script src="js/owl.carousel.min.js"></script>
+			<!-- countTo -->
+			<script src="js/jquery.countTo.js"></script>
+
+			<!-- Stellar -->
+			<script src="js/jquery.stellar.min.js"></script>
+			<!-- Magnific Popup -->
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/magnific-popup-options.js"></script>
+
+			<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+			<script src="js/simplyCountdown.js"></script>
+			<!-- Main -->
+			<script src="js/main.js"></script>
+
+			<script>
+		function submitAttendence() {
+			// Giả định rằng bạn đã thực hiện việc gửi form đi và nhận được kết quả JSON trả về như sau:
+			var responseJSON = '{"status":"success","message":"Data logged successfully"}';
+			var response = JSON.parse(responseJSON);
+			
+			if (response.status === "success") {
+				countdown();
+				document.getElementById("result-box").style.display = "block";
+				
+				setTimeout(function() {
+            		document.getElementById("result-box").style.display = 'none';
+        		}, 5000);
+				// Xử lý các hành động khác sau khi submit thành công
+			} else {
+				alert("Submit thất bại, vui lòng thử lại!");
+				// Xử lý các hành động khác khi submit thất bại (nếu cần)
+			}
+		}
+
+		function countdown() {
+			var count = 4; // Số giây bạn muốn đếm ngược
+			var countdownDisplay = document.getElementById('countdown');
+			countdownDisplay.innerHTML = 'Cảm ơn bạn đã phản hồi <3, thông báo sẽ tự dộng đóng sau ' + (count + 1) + ' giây';
+
+			var countdownTimer = setInterval(function() {
+				countdownDisplay.innerHTML = 'Cảm ơn bạn đã phản hồi <3, thông báo sẽ tự dộng đóng sau ' + count + ' giây';
+
+				count--;
+
+				if (count < 0) {
+					clearInterval(countdownTimer);
+					countdownDisplay.innerHTML = '';
+				}
+			}, 1000); // Cập nhật đếm ngược mỗi giây (1000ms)
+    	}
+	</script>
+
+			<script>
+		var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+
+		// default example
+		simplyCountdown('.simply-countdown-one', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate()
+		});
+
+		//jQuery example
+		$('#simply-countdown-losange').simplyCountdown({
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate(),
+			enableUtc: false
+		});
+		function scrollToTarget(type) {
+			if ($('body').hasClass('offcanvas')) {
+
+				$('body').removeClass('offcanvas');
+				$('.js-fh5co-nav-toggle').removeClass('active');
+
+			}
+			var defaultId = "page";
+			switch (type) {
+				case 'page':
+					break;
+				case 'fh5co-couple':
+					defaultId = 'fh5co-couple';
+					break;
+				case 'fh5co-event':
+					defaultId = 'fh5co-event';
+					break;
+
+				case 'fh5co-gallery':
+					defaultId = 'fh5co-gallery';
+					break;
+				default:
+				// code block
+			}
+			var element = document.getElementById(defaultId);
+			element.scrollIntoView({ behavior: "smooth" });
+		}
+		function goToSubmit() {
+			var element = document.getElementById('fh5co-started');
+			element.scrollIntoView({ behavior: "smooth" });
+		}
+	</script>
+
+		</body>
+
+	</html>
